@@ -1,0 +1,6 @@
+{
+  "name": "Groundwork Product Discovery Specs",
+  "description": "A collaborative product discovery platform with structured AI scoring, user flow logic, roadmap integration, and instant specifications sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
