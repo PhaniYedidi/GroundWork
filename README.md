@@ -23,20 +23,6 @@ This is a modern, high-performance, **full-stack web application**:
    - **Dual Compatibility Model**:
      - *Default*: Integrates with **Google Gemini (gemini-2.5-flash / gemini-3.5-flash)** using the server-secure `@google/genai` framework.
      - *Hackathon Direct Mode*: Configured to run on native **OpenAI GPT-4o** when an `OPENAI_API_KEY` is provided.
-
----
-
-## 🔑 Running with your Hackathon OpenAI API Key
-
-You don't need to change any code to use your company's hackathon OpenAI Key! The server automatically detects your key and switches to GPT-4o for you:
-
-1. Click on the **Settings Gear Icon** (on bottom left sidebar or top right menu) inside your **Google AI Studio Build** environment.
-2. Locate the **Secrets / Environment Variables** section.
-3. Click **Add Variable**:
-   - **Name / Key**: `OPENAI_API_KEY`
-   - **Value**: *Paste the `sk-...` API key your hackathon organizers provided.*
-4. The system will automatically protect this key on the server-side, keeping it completely hidden from the browser. The application will immediately begin routing all AI Scorecards, Playbooks, and Discovery chats through native **OpenAI GPT-4o**!
-
 ---
 
 ## 🚀 Step 1: Creating Your GitHub Repository (Zero Coding Needed)
